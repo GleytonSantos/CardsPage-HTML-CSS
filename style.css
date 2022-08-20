@@ -17,12 +17,12 @@
   align-items: center;
   flex-direction: column;
   flex: 1 0 auto;
-  margin: 100px;
+  /* margin: 100px; */
 }
 .title {
   text-align: center;
   width: 500px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .main-content {
   display: grid;
@@ -31,6 +31,7 @@
   align-items: center;
 }
 .main-card {
+  background-color: white;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -46,16 +47,16 @@
   transform: scale(1.05);
 }
 .card1 {
-  border-top: 5px solid hsl(180, 62%, 55%);
+  border-top: 3px solid hsl(180, 62%, 55%);
 }
 .card2 {
-  border-top: 5px solid hsl(34, 97%, 64%);
+  border-top: 3px solid hsl(34, 97%, 64%);
 }
 .card3 {
-  border-top: 5px solid hsl(0, 78%, 62%);
+  border-top: 3px solid hsl(0, 78%, 62%);
 }
 .card4 {
-  border-top: 5px solid hsl(212, 86%, 64%);
+  border-top: 3px solid hsl(212, 86%, 64%);
 }
 
 .picture {
